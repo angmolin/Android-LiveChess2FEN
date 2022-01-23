@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LiveChess2FEN</string>
+    <string name="title_activity_settings">LiveChess2FEN Settings</string>
+    <string name="button_settings">Settings</string>
+
+    <!-- Preferences -->
+    <string name="cnn_header">Convolutional Neural Network</string>
+    <string name="pieces_cnn_title">Model to chess piece detection</string>
+    <string name="laps_cnn_title">Model to laps detection</string>
+    <string name="benchmark_title">Profiling mode</string>
+    <string name="benchmark_summary">Display benchmark stats for profiling</string>
+    <string name="draw_title">Chessboard draw</string>
+    <string name="draw_summary">Displays a chessboard draw with the pieces</string>
+</resources>

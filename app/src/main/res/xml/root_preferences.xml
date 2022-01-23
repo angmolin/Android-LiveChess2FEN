@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/cnn_header">
+
+        <ListPreference
+            app:key="pieces_cnn"
+            app:title="@string/pieces_cnn_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:key="laps_cnn"
+            app:title="@string/laps_cnn_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="benchmark"
+            android:summary="@string/benchmark_summary"
+            android:title="@string/benchmark_title" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="draw"
+            android:summary="@string/draw_summary"
+            android:title="@string/draw_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
